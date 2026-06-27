@@ -65,7 +65,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${plusJakarta.variable} ${inter.variable}`}>
-      <body>
+      <body className="font-body bg-background text-dark antialiased">
         <SmoothScroll>
           <Navbar />
           <main>{children}</main>

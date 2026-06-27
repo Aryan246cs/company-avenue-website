@@ -14,6 +14,12 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  /* Prevent flash of unstyled content on navigation */
+  html, body {
+    background-color: #F8FAFC;
+    color: #1A1A1A;
+  }
+
   body {
     @apply bg-background text-[#1A1A1A] font-body;
   }
